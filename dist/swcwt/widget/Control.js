@@ -204,4 +204,3 @@ var Control = /** @class */ (function (_super) {
     return Control;
 }(fabric.Group));
 export default Control;
-//# sourceMappingURL=Control.js.map

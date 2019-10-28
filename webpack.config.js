@@ -18,9 +18,9 @@ module.exports = {
         // the entry point of our app
     ],
     output: {
-        filename: 'hotloader.js',
+        filename: 'swcwt.dev.js',
         // the output bundle
-        path: resolve(__dirname, 'dist'), 
+        path: resolve(__dirname, 'build'),
         publicPath: '/'
         // necessary for HMR to know where to load the hot update chunks
     },
@@ -56,6 +56,7 @@ module.exports = {
                     {
                         loader: 'ts-loader',
                         options: {
+                            configFile: 'tsconfig.dev.json',
                             transpileOnly: true,
                             getCustomTransformers: () => ({
                               before: [ tsImportPluginFactory({

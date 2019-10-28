@@ -20,4 +20,3 @@ var SwcwtError = /** @class */ (function (_super) {
     return SwcwtError;
 }(AbstractError));
 export default SwcwtError;
-//# sourceMappingURL=SwcwtError.js.map

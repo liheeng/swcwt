@@ -30,14 +30,14 @@ class HomePage extends React.Component<{}, {}> {
         let label1: Label = new Label("456", opts);
         formData = new FormData();
         formData.left =  FormAttachment.newAttachmentToOffset(10, 100, 20);
-        formData.top = FormAttachment.newAttachmentToOffset(30 );
+        formData.top = FormAttachment.newAttachmentToOffset(50 );
         label1.setLayoutData(formData);
         comp.addChild(label1);
 
         opts = {subTargetCheck: true, left: 50, top: 50, showBorder: true};
-        let label2: Label = new Label("上课的积分了", opts);
+        let label2: Label = new Label("Hello World!", opts);
         formData = new FormData();
-        formData.left =  FormAttachment.newAttchmentToWidget( label, 30, SwcwtDefs.LEFT);
+        formData.left =  FormAttachment.newAttchmentToWidget( label, 30, SwcwtDefs.RIGHT);
         formData.top = FormAttachment.newAttchmentToWidget(label, 20, SwcwtDefs.TOP);
         label2.setLayoutData(formData);
         comp.addChild(label2);

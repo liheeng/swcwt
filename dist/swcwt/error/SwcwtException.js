@@ -20,4 +20,3 @@ var SwcwtException = /** @class */ (function (_super) {
     return SwcwtException;
 }(AbstractException));
 export default SwcwtException;
-//# sourceMappingURL=SwcwtException.js.map

@@ -1,0 +1,37 @@
+import FormAttachment from "./FormAttachment";
+import LayoutData from "../interface/LayoutData";
+import Control from "../widget/Control";
+export default class FormData implements LayoutData {
+    left?: FormAttachment;
+    top?: FormAttachment;
+    right?: FormAttachment;
+    bottom?: FormAttachment;
+    height: number;
+    width: number;
+    defaultWhint: number;
+    defaultHhint: number;
+    defaultWidth: number;
+    defaultHeight: number;
+    currentWhint: number;
+    currentHhint: number;
+    currentWidth: number;
+    currentHeight: number;
+    cacheWidth: number;
+    cacheHeight: number;
+    cacheLeft: FormAttachment;
+    cacheRight: FormAttachment;
+    cacheTop: FormAttachment;
+    cacheBottom: FormAttachment;
+    isVisited: boolean;
+    needed: boolean;
+    constructor(width?: number, height?: number);
+    computeSize(control: Control, wHint: number, hHint: number, flushCache: boolean): void;
+    flushCache(): void;
+    getWidth(control: Control, flushCache: boolean): number;
+    getHeight(control: Control, flushCache: boolean): number;
+    getBottomAttachment(control: Control, spacing: number, flushCache: boolean): FormAttachment;
+    getLeftAttachment(control: Control, spacing: number, flushCache: boolean): FormAttachment;
+    getRightAttachment(control: Control, spacing: number, flushCache: boolean): FormAttachment;
+    getTopAttachment(control: Control, spacing: number, flushCache: boolean): FormAttachment;
+    toString(): string;
+}

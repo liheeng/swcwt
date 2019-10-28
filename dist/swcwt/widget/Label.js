@@ -40,4 +40,3 @@ var Label = /** @class */ (function (_super) {
     return Label;
 }(SimpleWidget));
 export default Label;
-//# sourceMappingURL=Label.js.map

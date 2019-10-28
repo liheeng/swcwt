@@ -7,4 +7,3 @@ var AbstractException = /** @class */ (function () {
     return AbstractException;
 }());
 export default AbstractException;
-//# sourceMappingURL=AbstractException.js.map

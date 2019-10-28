@@ -30,14 +30,14 @@ class HomePage extends React.Component<{}, {}> {
         comp.addChild(label1);
 
         opts = {subTargetCheck: true,  showBorder: true};
-        let label2: Label = new Label("上课", opts);
+        let label2: Label = new Label("Hello", opts);
         gridData = GridData.newWithStyle(GridData.VERTICAL_ALIGN_END);
         gridData.horizontalIndent = 5;
         label2.setLayoutData(gridData);
         comp.addChild(label2);
 
         opts = {subTargetCheck: true, showBorder: true};
-        let label3: Label = new Label("结束", opts);
+        let label3: Label = new Label("World", opts);
         gridData = GridData.newWithStyle(GridData.VERTICAL_ALIGN_FILL);
         label3.setLayoutData(gridData);
         comp.addChild(label3);

@@ -35,4 +35,3 @@ var IllegalArgumentException = /** @class */ (function (_super) {
     return IllegalArgumentException;
 }(AbstractException));
 export default IllegalArgumentException;
-//# sourceMappingURL=IllegalArgumentException.js.map

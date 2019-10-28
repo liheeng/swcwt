@@ -72,4 +72,3 @@ var SimpleWidget = /** @class */ (function (_super) {
     return SimpleWidget;
 }(Control));
 export default SimpleWidget;
-//# sourceMappingURL=SimpleWidget.js.map

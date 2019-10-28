@@ -13,16 +13,6 @@ import GridLayoutPage from "./pages/GridLayoutPage";
 
 export const routes: RouteConfig[] = [
     {
-        path: "/home",
-        exact: true,
-        component: () => (<HomePage />),
-    },
-    {
-        path: "/expr",
-        exact: true,
-        component: () => (<ExprEditor />),
-    },
-    {
         path: "/fillLayout",
         exact: true,
         component: () => (<FillLayoutPage />),
@@ -43,11 +33,8 @@ export const routes: RouteConfig[] = [
         component: () => (<GridLayoutPage />),
     },
     {
-        path: "/todo",
-        component: () => (<TodoPage />),
-    },
-    {
         path: "/about",
+        exact: true,
         component: () => (<AboutPage />),
     },
 ];

@@ -238,4 +238,3 @@ var GridData = /** @class */ (function (_super) {
     return GridData;
 }(AbstractLayoutData));
 export default GridData;
-//# sourceMappingURL=GridData.js.map

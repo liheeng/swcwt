@@ -18,4 +18,3 @@ var WidgetUtils = /** @class */ (function () {
     return WidgetUtils;
 }());
 export default WidgetUtils;
-//# sourceMappingURL=WidgteUtils.js.map

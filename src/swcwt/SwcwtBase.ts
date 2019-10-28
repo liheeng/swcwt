@@ -73,29 +73,6 @@ export enum LineJoin {
     MITER = "miter",
 }
 
-// export interface StrokeStyle {
-//     /**
-//      * Color of border.
-//      */
-//     color?: fabric.Color;
-//
-//     /**
-//      * Gradient setting
-//      */
-//     gradient?: fabric.Gradient;
-//
-//     /**
-//      * paint pattern.
-//      */
-//     pattern?: fabric.Pattern;
-//
-//     isColor(): boolean;
-//
-//     isGradient(): boolean;
-//
-//     isPattern(): boolean;
-// }
-
 export class Border {
     stroke: string;
 

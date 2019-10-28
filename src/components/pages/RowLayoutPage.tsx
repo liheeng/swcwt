@@ -12,7 +12,7 @@ import RowData from "../../swcwt/layout/RowData";
 class HomePage extends React.Component<{}, {}> {
 
     drawHorizontalRowLayout(canvas: fabric.Canvas) {
-        let opts: WidgetOptions | any = {left: 50, top: 250, width: 300, height: 100, border: {width: 10, stroke: "rgba(100,200,200,0.5)"}};
+        let opts: WidgetOptions | any = {left: 50, top: 100, width: 300, height: 100, border: {width: 10, stroke: "rgba(100,200,200,0.5)"}};
         let comp: Composite = new Composite(opts);
         let rowLayout = new RowLayout(comp);
         comp.setLayout(rowLayout)
@@ -28,7 +28,7 @@ class HomePage extends React.Component<{}, {}> {
         comp.addChild(label1);
 
         opts = {subTargetCheck: true, left: 50, top: 50, showBorder: false};
-        let label2: Label = new Label("上课的积分了", opts);
+        let label2: Label = new Label("Hello World!", opts);
         label2.setLayoutData(new RowData());
         comp.addChild(label2);
 
@@ -37,7 +37,7 @@ class HomePage extends React.Component<{}, {}> {
     }
 
     drawVerticalRowLayout(canvas: fabric.Canvas) {
-        let opts: WidgetOptions | any = {left: 300, top: 250, width: 50, height: 200, border: {width: 10, stroke: "rgba(100,200,200,0.5)"}};
+        let opts: WidgetOptions | any = {left: 400, top: 100, width: 50, height: 200, border: {width: 10, stroke: "rgba(100,200,200,0.5)"}};
         let comp: Composite = new Composite(opts);
         let rowLayout = new RowLayout(comp);
         rowLayout.type = SwcwtDefs.VERTICAL;
@@ -54,7 +54,7 @@ class HomePage extends React.Component<{}, {}> {
         comp.addChild(label1);
 
         opts = {subTargetCheck: true, left: 50, top: 50, showBorder: false};
-        let label2: Label = new Label("上课的积分了", opts);
+        let label2: Label = new Label("Hello World!", opts);
         label2.setLayoutData(new RowData());
         comp.addChild(label2);
 

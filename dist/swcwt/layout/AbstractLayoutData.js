@@ -21,4 +21,3 @@ var AbstractLayoutData = /** @class */ (function () {
     return AbstractLayoutData;
 }());
 export default AbstractLayoutData;
-//# sourceMappingURL=AbstractLayoutData.js.map

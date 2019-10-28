@@ -22,4 +22,3 @@ export * from "./widget/Label";
 export * from "./widget/Scrollable";
 export * from "./widget/Composite";
 export * from "./util/WidgteUtils";
-//# sourceMappingURL=index.js.map

@@ -23,51 +23,33 @@ class Sidebar extends React.Component<{}, SidebarState> {
                 <div className="ant-layout-logo" />
                 <Menu theme="dark" mode={this.state.mode} defaultSelectedKeys={["1"]}>
                     <Menu.Item key="1">
-                        <Link to="/home">
-                            <Icon type="home" />
-                            <span className="nav-text">Home</span>
-                        </Link>
-                    </Menu.Item>
-                    <Menu.Item key="2">
-                        <Link to="/expr">
-                            <Icon type="expr" />
-                            <span className="nav-text">Expr Edtior</span>
-                        </Link>
-                    </Menu.Item>
-                    <Menu.Item key="3">
-                        <Link to="/todo">
-                            <Icon type="check-square-o" />
-                            <span className="nav-text">Todo</span>
-                        </Link>
-                    </Menu.Item>
-                    <Menu.Item key="4">
-                        <Link to="/about">
-                            <Icon type="file" />
-                            <span className="nav-text">About</span>
-                        </Link>
-                    </Menu.Item>
-                    <Menu.Item key="5">
                         <Link to="/fillLayout">
                             <Icon type="file" />
                             <span className="nav-text">Fill Layout</span>
                         </Link>
                     </Menu.Item>
-                    <Menu.Item key="6">
+                    <Menu.Item key="2">
                         <Link to="/rowLayout">
                             <Icon type="file" />
                             <span className="nav-text">Row Layout</span>
                         </Link>
                     </Menu.Item>
-                    <Menu.Item key="7">
+                    <Menu.Item key="3">
                         <Link to="/formLayout">
                             <Icon type="file" />
                             <span className="nav-text">Form Layout</span>
                         </Link>
                     </Menu.Item>
-                    <Menu.Item key="8">
+                    <Menu.Item key="4">
                         <Link to="/gridLayout">
                             <Icon type="file" />
                             <span className="nav-text">Grid Layout</span>
+                        </Link>
+                    </Menu.Item>
+                    <Menu.Item key="5">
+                        <Link to="/about">
+                            <Icon type="file" />
+                            <span className="nav-text">About</span>
                         </Link>
                     </Menu.Item>
                 </Menu>

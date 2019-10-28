@@ -42,4 +42,3 @@ var RowData = /** @class */ (function (_super) {
     return RowData;
 }(AbstractLayoutData));
 export default RowData;
-//# sourceMappingURL=RowData.js.map

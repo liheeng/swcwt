@@ -118,4 +118,3 @@ var Border = /** @class */ (function () {
     return Border;
 }());
 export { Border };
-//# sourceMappingURL=SwcwtBase.js.map

@@ -14,7 +14,7 @@ const PageLayout: React.StatelessComponent<{}> = () => {
             <Layout>
                 <Layout.Content>
                     <Header />
-                    <Redirect to="/home" />
+                    <Redirect to="/fillLayout" />
                     {renderRoutes(routes)}
                 </Layout.Content>
             </Layout>

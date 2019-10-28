@@ -7,4 +7,3 @@ var AbstractError = /** @class */ (function () {
     return AbstractError;
 }());
 export default AbstractError;
-//# sourceMappingURL=AbstractError.js.map

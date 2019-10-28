@@ -1,0 +1,1 @@
+{"version":3,"file":"IllegalArgumentException.js","sourceRoot":"","sources":["../../../src/swcwt/error/IllegalArgumentException.ts"],"names":[],"mappings":";;;;;;;;;;;;;AAAA;;;;;;;;;;;;;;GAcG;AACH,OAAO,iBAAiB,MAAM,qBAAqB,CAAC;AAEpD;IAAsD,4CAAiB;IACnE,kCAAY,OAAgB;eACxB,kBAAM,CAAC,CAAC,EAAE,OAAO,EAAE,SAAS,CAAC;IACjC,CAAC;IACL,+BAAC;AAAD,CAAC,AAJD,CAAsD,iBAAiB,GAItE"}
