@@ -3,7 +3,7 @@
   "version": "1.6.0",
   "description": "A simple template for creating react app using TypeScript with hot reload.",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/swcwt/index.d.ts",
   "scripts": {
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}' --exclude 'src/tests/*.{ts,tsx}'",
     "start": "tsc -p tsconfig.dev.json && webpack-dev-server",

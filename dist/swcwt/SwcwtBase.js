@@ -86,28 +86,6 @@ export var LineJoin;
     LineJoin["ROUND"] = "round";
     LineJoin["MITER"] = "miter";
 })(LineJoin || (LineJoin = {}));
-// export interface StrokeStyle {
-//     /**
-//      * Color of border.
-//      */
-//     color?: fabric.Color;
-//
-//     /**
-//      * Gradient setting
-//      */
-//     gradient?: fabric.Gradient;
-//
-//     /**
-//      * paint pattern.
-//      */
-//     pattern?: fabric.Pattern;
-//
-//     isColor(): boolean;
-//
-//     isGradient(): boolean;
-//
-//     isPattern(): boolean;
-// }
 var Border = /** @class */ (function () {
     function Border() {
         /**

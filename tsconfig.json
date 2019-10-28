@@ -3,7 +3,6 @@
         "outDir": "./dist",
         "module": "esnext",
         "target": "es5",
-        "declaration": true,
         "lib": [
             "dom",
             "dom.iterable",
@@ -11,7 +10,7 @@
             "es2015",
             "es2016"
           ],
-        "allowJs": false,
+        "allowJs": true,
         "jsx": "react",
         "moduleResolution": "node",
         "rootDir": "src",

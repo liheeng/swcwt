@@ -22,3 +22,4 @@ export * from "./widget/Label";
 export * from "./widget/Scrollable";
 export * from "./widget/Composite";
 export * from "./util/WidgteUtils";
+export * from "./fabric/ExtIText";
