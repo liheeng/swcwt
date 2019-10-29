@@ -1,2 +1,13 @@
+webpack.config.js
+webpack.prod.config.js
 tsconfig.json
+tsconfig.dev.json
+tsconfig.pro.json
+tslint.json
+package-lock.json
+yarn.lock
+babel.config.js
 src
+build
+node_modules
+.idea

@@ -46,7 +46,7 @@ var ExtIText = /** @class */ (function (_super) {
             return;
         }
         if (this.canvas) {
-            var currentActive = this.canvas._activeObject;
+            var currentActive = thiz.canvas._activeObject;
             if (thiz.canvas._activeObject instanceof fabric.Group && thiz.canvas.targets.length > 0) {
                 currentActive = thiz.canvas.targets[0];
             }
@@ -61,7 +61,7 @@ var ExtIText = /** @class */ (function (_super) {
             thiz.selected = false;
             thiz.__lastSelected = false;
             thiz.enterEditing(options.e);
-            if (this.selectionStart === this.selectionEnd) {
+            if (thiz.selectionStart === thiz.selectionEnd) {
                 thiz.initDelayedCursor(true);
             }
             else {
